@@ -3,8 +3,8 @@ This repository aims at reproducing the framework proposed in ["Task-Driven Dict
 The joint learning problem arises as a risk minimization formulated as 
 
 $$
-\underset{D \in \mathcal{D}, W \in \mathcal{W}}{\mathrm{min}} \mathbb{E}_{y,x}[\mathcal{l}_s(y, W, \alpha^*(x,D))] + \mathcal{R}(W)
+\underset{D \in \mathcal{D}, W \in \mathcal{W}}{\mathrm{min}} \mathbb{E}_{y,x}[\mathcal{l}_s(y, W, \alpha^*(x,D))]
 $$
 
-where we want to learn at one time the dictionary $D$ and the parametrization $W$ of the model carrying the supervised task, i.e. in predicting $y$ through the sparse vector $\alpha^*(x,D)$ encoding for $x$. 
+where we want to learn at one time the dictionary $D$ and the parametrization $W$ of the model carrying the supervised task, i.e. in predicting $y$ through the sparse vector $\alpha^*(x,D)$ encoding for $x$. The expectation works as a theoretical approach that is tackled via online stochastic gradient descent. 
 
