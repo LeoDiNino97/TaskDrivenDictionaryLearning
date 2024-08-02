@@ -3,6 +3,6 @@ This project aims at reproducing the framework proposed in ["Task-Driven Diction
 The joint learning problem arises as a empirical risk minimization formulated as 
 
 $$
-\underset{D \in \mathcal{D}, W \in \mathcal{W}}{\mathrm{min}} \mathbb{E}_{y,x}[\mathcal{l}_s(y, W, \alpha^*(x,D))] + \frac{\ni}{2}||W||_F^2
+\underset{D \in \mathcal{D}, W \in \mathcal{W}}{\mathrm{min}} \mathbb{E}_{y,x}[\mathcal{l}_s(y, W, \alpha^*(x,D))] + \frac{\nu}{2}||W||_F^2
 $$
 
